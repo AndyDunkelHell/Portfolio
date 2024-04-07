@@ -7,9 +7,9 @@ const Header = () => {
 
   return (
     <header className='header center'>
-      <h3>
+      <h3 className='sticky_top' >
         {homepage ? (
-          <a href={homepage} className='header sticky_top link'>
+          <a href={homepage} className='link'>
             {title}
           </a>
         ) : (

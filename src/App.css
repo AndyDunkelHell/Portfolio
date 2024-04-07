@@ -81,6 +81,12 @@ main {
   color: var(--clr-fg);
 }
 
+.sticky_top{
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+}
+
 .btn {
   display: block;
   cursor: pointer;
