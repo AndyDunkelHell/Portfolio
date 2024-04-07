@@ -7,7 +7,7 @@ import { useIsomorphicLayoutEffect } from "../../utils";
 import { stagger } from "../../animations";
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, role2, role3, description, resume, social } = about
   // Ref
 
   const textOne = useRef();
@@ -44,22 +44,15 @@ const About = () => {
               ref={textThree}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
-              {description}
+              {role2}
             </h1>
             <h1
               ref={textFour}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
-              {description}
+              {role3}
             </h1>
           </div>
-      {name && (
-        <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
-        </h1>
-      )}
-
-      {role && <h2 className='about__role'>A {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
