@@ -26,7 +26,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Project BBH',
-    pic: 'View2.png',
+    pic: 'Picture2.png',
     description:
       'Brandt Bionic Hand (BBH) project 3D-Printed Bionic Hand with Visual and Myoelectrical Control Mechanisms and Enhanced Dexterity ',
     stack: ['C++', 'C', 'Python'],
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     name: 'Vertebrae Local Coordinates',
-    pic: 'DunkelHell2.png',
+    pic: 'Picture3.png',
     description:
       'Python Code to Generate a Local Coordinate System on an STL file from a Vertebrae using the VTK Library ',
     stack: ['Python'],
@@ -45,7 +45,7 @@ const projects = [
   },
   {
     name: 'Stepper Controller',
-    pic: 'DunkelHell2.png',
+    pic: 'Picture4.png',
     description:
       'Stepper Controller with Python GUI and Arduino ',
     stack: ['C++', 'Python'],
@@ -55,7 +55,7 @@ const projects = [
 
   {
     name: 'Tekton Home',
-    pic: 'DunkelHell2.png',
+    pic: 'Picture5.png',
     description:
       'WebApp to control multiple WiFi capable Microcontrollers and Portable computers ',
     stack: ['Python', 'JavaScript', 'C++', 'CSS'],
