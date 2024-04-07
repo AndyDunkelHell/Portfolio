@@ -41,7 +41,7 @@ const projects = [
     livePreview: 'https://github.com/AndyDunkelHell/vertebraeLocalCoordinates',
   },
   {
-    name: 'Project 3',
+    name: 'Stepper Controller',
     description:
       'Stepper Controller with Python GUI and Arduino ',
     stack: ['C++', 'Python'],
