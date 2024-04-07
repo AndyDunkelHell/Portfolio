@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useState, useEffect, } from 'react'
 import Brightness2Icon from '@mui/icons-material/Brightness2'
 import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded'
 import MenuIcon from '@mui/icons-material/Menu'
@@ -7,12 +7,16 @@ import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
 
-
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
   const [showNavList, setShowNavList] = useState(false)
+  const [mounted, setMounted] = useState(false);
 
   const toggleNavList = () => setShowNavList(!showNavList)
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <nav className='center nav'>

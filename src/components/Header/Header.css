@@ -6,6 +6,11 @@
   justify-content: space-between;
 }
 
+.sticky_top{
+  position: sticky;
+  top: 0;
+}
+
 @media (max-width: 600px) {
   .header {
     height: 6em;
