@@ -50,9 +50,9 @@ const projects = [
   },
 
   {
-    name: 'Project 4',
+    name: 'Tekton Home',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'WebApp to control multiple WiFi capable Microcontrollers and Portable computers ',
     stack: ['Python', 'JavaScript', 'C++', 'CSS'],
     sourceCode: 'https://github.com/AndyDunkelHell/tektonHome',
     livePreview: 'https://github.com/AndyDunkelHell/tektonHome',
