@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4930f429.css",
-    "main.js": "/Portfolio/static/js/main.e2887765.js",
+    "main.css": "/Portfolio/static/css/main.2ee7fb05.css",
+    "main.js": "/Portfolio/static/js/main.0b023a69.js",
     "static/media/DunkelHell2.png": "/Portfolio/static/media/DunkelHell2.79495e0d21eea04e31f0.png",
     "index.html": "/Portfolio/index.html",
-    "main.4930f429.css.map": "/Portfolio/static/css/main.4930f429.css.map",
-    "main.e2887765.js.map": "/Portfolio/static/js/main.e2887765.js.map"
+    "main.2ee7fb05.css.map": "/Portfolio/static/css/main.2ee7fb05.css.map",
+    "main.0b023a69.js.map": "/Portfolio/static/js/main.0b023a69.js.map"
   },
   "entrypoints": [
-    "static/css/main.4930f429.css",
-    "static/js/main.e2887765.js"
+    "static/css/main.2ee7fb05.css",
+    "static/js/main.0b023a69.js"
   ]
 }
