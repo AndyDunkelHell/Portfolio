@@ -1,6 +1,10 @@
 .project {
   padding: 2em;
   margin: 0 auto;
+  background-image: url("DunkelHell2.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
