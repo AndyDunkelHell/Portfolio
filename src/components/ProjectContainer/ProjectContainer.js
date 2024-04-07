@@ -5,6 +5,12 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
+    <img alt={project.name} 
+    className="project__pic"
+    src={project.pic}
+    > 
+    
+    </img>
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>

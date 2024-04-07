@@ -26,14 +26,17 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Project BBH',
+    pic: 'View2.png',
     description:
       'Brandt Bionic Hand (BBH) project 3D-Printed Bionic Hand with Visual and Myoelectrical Control Mechanisms and Enhanced Dexterity ',
     stack: ['C++', 'C', 'Python'],
     sourceCode: 'https://github.com/AndyDunkelHell/ProjectBBH',
     livePreview: 'https://www.linkedin.com/posts/andres-gonzalez-rivera-13b168139_biomedicalengineering-bionichand-vr-activity-7179784230443307008-Ujj8?utm_source=share&utm_medium=member_desktop',
+    
   },
   {
     name: 'Vertebrae Local Coordinates',
+    pic: 'DunkelHell2.png',
     description:
       'Python Code to Generate a Local Coordinate System on an STL file from a Vertebrae using the VTK Library ',
     stack: ['Python'],
@@ -42,6 +45,7 @@ const projects = [
   },
   {
     name: 'Stepper Controller',
+    pic: 'DunkelHell2.png',
     description:
       'Stepper Controller with Python GUI and Arduino ',
     stack: ['C++', 'Python'],
@@ -51,6 +55,7 @@ const projects = [
 
   {
     name: 'Tekton Home',
+    pic: 'DunkelHell2.png',
     description:
       'WebApp to control multiple WiFi capable Microcontrollers and Portable computers ',
     stack: ['Python', 'JavaScript', 'C++', 'CSS'],
@@ -60,6 +65,7 @@ const projects = [
   },
 {
   name: 'Other Projects',
+  pic: 'DunkelHell2.png',
   description:
     'Here you will find some of my other projects that do not necessarily have to do with Programming',
   stack: ['Adobe Suite', 'Photography', 'Video Editing', 'CAD'],
