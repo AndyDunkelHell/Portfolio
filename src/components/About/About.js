@@ -1,98 +1,58 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { about } from '../../portfolio'
-import Button from "../Button";
-import { Popover } from "@headlessui/react";
-import { useTheme } from "next-themes";
-import React, { useEffect, useState } from "react";
+import React, { useRef } from "react";
 import './About.css'
+import { useIsomorphicLayoutEffect } from "../../utils";
+import { stagger } from "../../animations";
 
-const About = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const About = () => {
   const { name, role, description, resume, social } = about
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  // Ref
 
-  useEffect(() => {
-    setMounted(true);
+  const textOne = useRef();
+  const textTwo = useRef();
+  const textThree = useRef();
+  const textFour = useRef();
+
+  useIsomorphicLayoutEffect(() => {
+    stagger(
+      [textOne.current, textTwo.current, textThree.current, textFour.current],
+      { y: 40, x: -10, transform: "scale(0.95) skew(10deg)" },
+      { y: 0, x: 0, transform: "scale(1)" }
+    );
   }, []);
 
   return (
-    <>
-    <Popover className="block tablet:hidden mt-5">
-      {({ open }) => (
-        <>
-          <div className="flex items-center justify-between p-2 laptop:p-0">
-            <h1
-              
-              className="font-medium p-2 laptop:p-0 link"
-            >
-              {name}.
-            </h1>
 
-            <div className="flex items-center">
-              
-                <Button
-                  onClick={() =>
-                    setTheme(theme === "dark" )
-                  }
-                >
-                  <img
-                    className="h-6"
-                    src={`/images/${
-                      theme === "dark" ? "moon.svg" : "sun.svg"
-                    }`}
-                  ></img>
-                </Button>
-
-              <Popover.Button>
-                <img
-                  className="h-5"
-                  src={`/images/${
-                    !open
-                      ? theme === "dark"
-                        ? "menu-white.svg"
-                        : "menu.svg"
-                      : theme === "light"
-                      ? "cancel.svg"
-                      : "cancel-white.svg"
-                  }`}
-                ></img>
-              </Popover.Button>
-            </div>
-          </div>
-          <Popover.Panel
-            className={`absolute right-0 z-10 w-11/12 p-4 ${
-              theme === "dark" ? "bg-slate-800" : "bg-white"
-            } shadow-md rounded-md`}
-          >
-            {!isBlog ? (
-              <div className="grid grid-cols-1">
-                <Button onClick={handleWorkScroll}>Work</Button>
-                <Button onClick={handleAboutScroll}>About</Button>
-
-                <Button
-                  onClick={() => window.open("mailto:hello@chetanverma.com")}
-                >
-                  Contact
-                </Button>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1">
-                <Button
-                  onClick={() => window.open("mailto:hello@chetanverma.com")}
-                >
-                  Contact
-                </Button>
-              </div>
-            )}
-          </Popover.Panel>
-        </>
-      )}
-    </Popover>
-    
-    
-    
     <div className='about center'>
+      <div className="laptop:mt-20 mt-10">
+          <div className="mt-5">
+            <h1
+              ref={textOne}
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+            >
+              {name}
+            </h1>
+            <h1
+              ref={textTwo}
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+            >
+              {role}
+            </h1>
+            <h1
+              ref={textThree}
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+            >
+              {description}
+            </h1>
+            <h1
+              ref={textFour}
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+            >
+              {description}
+            </h1>
+          </div>
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
@@ -135,8 +95,8 @@ const About = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </>
         )}
       </div>
-    </div>
-    </>
+    </div></div>
+
   )
 }
 
