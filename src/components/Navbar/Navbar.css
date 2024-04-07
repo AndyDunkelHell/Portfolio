@@ -10,11 +10,6 @@
   display: none;
 }
 
-.sticky_top{
-  position: sticky;
-  top: 0;
-}
-
 .nav__theme {
   margin-top: 0.4em;
 }

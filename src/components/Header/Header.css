@@ -7,6 +7,7 @@
 }
 
 .sticky_top{
+  background-color: transparent;
   position: sticky;
   top: 0;
 }
