@@ -13,7 +13,7 @@ const about = {
   role3:
     'Professional tinkerer',
   description:
-    "I am Andres Gonzalez, 24 years old. I'm currently studying a Master's degree in Medical Informatics at the University of Leipzig. I come from Venezuela and am in Germany so that I can make my dream come true, namely to help millions of people in the future with my developments. In the first two years of my life in Germany I was first in Cologne as an exchange student, then I studied for a year in a Studienkolleg in Geilenkirchen. During the following years I completed my Bachelor's degree in Biomedical Engineering at the FH Aachen.",
+    "I am Andres Gonzalez, 24 years old. I'm currently studying a Master's degree in Medical Informatics at the University of Leipzig. I come from Venezuela and am in Germany so that I can make my dream come true, namely to help millions of people in the future with my developments. In the first year of my life in Germany I was in Cologne as an exchange student, then I studied for a year in a Studienkolleg in Geilenkirchen. During the following years I completed my Bachelor's degree in Biomedical Engineering at the FH Aachen. My passion lies in creating things and if you want to see it for yourself, I invite you to look further into my projects bellow!",
   resume: 'https://github.com/AndyDunkelHell/Portfolio/blob/main/Curriculum%20Andres%20Gonzalez%202023_DE.pdf',
   social: {
     linkedin: ' https://www.linkedin.com/in/andres-gonzalez-rivera-13b168139/',
