@@ -5,7 +5,6 @@ import React, { useRef } from "react";
 import './About.css'
 import { useIsomorphicLayoutEffect } from "../../utils";
 import { stagger } from "../../animations";
-import Button from "../Button/Button";
 
 const About = () => {
   const { name, role, role2, role3, description, resume, social } = about
@@ -59,9 +58,9 @@ const About = () => {
       <div className='about__contact center'>
         {resume && (
           <a href={resume}>
-            <Button>
+            <span type='button' className='btn btn--outline'>
               Resume
-            </Button>
+            </span>
           </a>
         )}
 

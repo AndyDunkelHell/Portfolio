@@ -95,11 +95,14 @@ main {
   font-size: 0.9rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  border-radius: 4px;
+
 }
 
 .btn--outline {
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
+  border-radius: 4px;
   position: relative;
   overflow: hidden;
   z-index: 1;
