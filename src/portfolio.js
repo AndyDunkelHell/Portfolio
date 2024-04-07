@@ -58,6 +58,15 @@ const projects = [
     livePreview: 'https://github.com/AndyDunkelHell/tektonHome',
   
   },
+{
+  name: 'Other Projects',
+  description:
+    'Here you will find some of my other projects that do not necessarily have to do with Programming',
+  stack: ['Adobe Suite', 'Photography', 'Video Editing', 'CAD'],
+  sourceCode: 'https://github.com/AndyDunkelHell/Portfolio/tree/main/OtherProjects',
+  livePreview: 'https://github.com/AndyDunkelHell/Portfolio/tree/main/OtherProjects',
+
+},
 ]
 
 const skills = [
