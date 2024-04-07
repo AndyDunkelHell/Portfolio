@@ -14,7 +14,7 @@ const about = {
     'Professional tinkerer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: 'https://github.com/AndyDunkelHell/Portfolio/blob/main/Curriculum%20Andres%20Gonzalez%202023_DE.pdf',
   social: {
     linkedin: ' https://www.linkedin.com/in/andres-gonzalez-rivera-13b168139/',
     github: 'https://github.com/AndyDunkelHell',
@@ -48,6 +48,16 @@ const projects = [
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
+
+  {
+    name: 'Project 4',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  
+  },
 ]
 
 const skills = [
@@ -69,7 +79,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'andres.gonzalez.rivera@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
