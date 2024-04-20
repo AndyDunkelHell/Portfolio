@@ -6,8 +6,9 @@ Below you will be a small teaser of two videos I participated in and one poster 
 
 https://github.com/AndyDunkelHell/Portfolio/assets/58504780/df2ceb39-d20e-4af1-a1f4-2d4cb62cb68e
 
+![TDB-Horizontal](https://github.com/AndyDunkelHell/Portfolio/assets/58504780/609f6ec1-7822-4b17-98f8-34a1ae6a34cf)
 
-
+![TDB-Vertical](https://github.com/AndyDunkelHell/Portfolio/assets/58504780/446bc039-40dd-43d2-be93-5595e1340fc4)
 
 Finally you can find some videos in my personal ![youtube channel] (https://www.youtube.com/channel/UCdisWnISnJLQ6v6fTtsIdaw) I did during my exchange year in Germany!
 
