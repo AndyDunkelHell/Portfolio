@@ -5,6 +5,7 @@ import React, { useRef } from "react";
 import './About.css'
 import { useIsomorphicLayoutEffect } from "../../utils";
 import { stagger } from "../../animations";
+import videoBg from "../../assets/BBHTeaser_1.mp4"
 
 const About = () => {
   const { name, role, role2, role3, description, resume, social } = about
@@ -26,8 +27,12 @@ const About = () => {
   return (
 
     <div className='about center'>
+
       <div className="laptop:mt-20 mt-10">
+      
+      
           <div className="mt-5">
+            
             <h1
               ref={textOne}
               className="about__name text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
@@ -88,7 +93,13 @@ const About = () => {
           </>
         )}
       </div>
-    </div></div>
+      <div>
+      <video src={videoBg} autoPlay loop muted></video>
+      </div>
+      
+    </div>
+    
+    </div>
 
   )
 }
