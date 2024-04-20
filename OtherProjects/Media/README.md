@@ -12,5 +12,5 @@ https://github.com/AndyDunkelHell/Portfolio/assets/58504780/df2ceb39-d20e-4af1-a
 
 Furthermore, in the YouTube channel of the ![AWO Kreisverband Aachen-Stadt e.V. I](https://www.youtube.com/@awokreisverbandaachen-stad3461) I participated in videos of their channel up to 2022, including a 360 degree video tour of the city of Aachen and a live stream for Karneval 2021. 
 
-Finally you can find some videos in my personal ![youtube channel] (https://www.youtube.com/channel/UCdisWnISnJLQ6v6fTtsIdaw) I did during my exchange year in Germany!
+Finally you can find some videos in my personal ![YouTube channel] (https://www.youtube.com/channel/UCdisWnISnJLQ6v6fTtsIdaw) I did during my exchange year in Germany!
 
