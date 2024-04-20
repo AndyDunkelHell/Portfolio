@@ -4,7 +4,9 @@ In this section you will find some of the media content I have participated in c
 
 Below you will be a small teaser of two videos I participated in and one poster I created. These are my favorite projects among many I helped create.
 
-https://github.com/AndyDunkelHell/Portfolio/assets/58504780/df2ceb39-d20e-4af1-a1f4-2d4cb62cb68e
+
+https://github.com/AndyDunkelHell/Portfolio/assets/58504780/e30464c7-df36-456e-bfdb-51c57df7486c
+
 
 ![TDB-Horizontal](https://github.com/AndyDunkelHell/Portfolio/assets/58504780/609f6ec1-7822-4b17-98f8-34a1ae6a34cf)
 
