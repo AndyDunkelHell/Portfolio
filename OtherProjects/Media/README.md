@@ -7,4 +7,4 @@ Portfolio of projects by Andres Gonzalez
 </p>
 
 
-https://github.com/AndyDunkelHell/Portfolio/assets/58504780/df2ceb39-d20e-4af1-a1f4-2d4cb62cb68e
+![Video Production Teaser](https://github.com/AndyDunkelHell/Portfolio/assets/58504780/df2ceb39-d20e-4af1-a1f4-2d4cb62cb68e)
