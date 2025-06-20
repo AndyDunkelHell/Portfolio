@@ -25,6 +25,7 @@ video{
 }
 
 .about__desc {
+  text-align: justify;
   font-size: 1rem;
   max-width: 600px;
   background-color: transparent
