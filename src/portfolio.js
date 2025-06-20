@@ -103,7 +103,16 @@ const skills = [
   'React',
   '3D Printing',
   'Unity Engine',
-  'TensorFlow'
+  'TensorFlow',
+  'Arduino',
+  'Microcontrollers',
+  'TFLite',
+  'PCB Design',
+  'Soft Robotics',
+  'ECAD',
+  'Microsoft Suite',
+  'Soldering'
+
 ]
 
 const contact = {
