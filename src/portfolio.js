@@ -31,7 +31,7 @@ const projects = [
       'Brandt Bionic Hand (BBH) project 3D-Printed Bionic Hand with Visual and Myoelectrical Control Mechanisms and Enhanced Dexterity ',
     stack: ['C++', 'C', 'Python'],
     sourceCode: 'https://github.com/AndyDunkelHell/ProjectBBH',
-    livePreview: 'https://www.linkedin.com/posts/andres-gonzalez-rivera-13b168139_biomedicalengineering-bionichand-vr-activity-7179784230443307008-Ujj8?utm_source=share&utm_medium=member_desktop',
+    livePreview: 'https://www.linkedin.com/posts/andresegonzalezr_biomedicalengineering-bionichand-vr-activity-7179784230443307008-RThh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACGpOL8BST7PsuEH3YjfDbvvmsdMaxNaMxk',
     
   },
   {
