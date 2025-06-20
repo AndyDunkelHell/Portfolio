@@ -14,7 +14,7 @@ const about = {
     'Professional tinkerer',
   description:
     " I'm currently studying a master’s degree in medical computer science at Leipzig University. I came to Germany as an exchange student, then I decided to pursue my higher education in the fields of biomedical engineering and medical computer science. During my studies I have also been a part of many research and development interdisciplinary teams focused on projects in my fields of study. There I gathered many skills, such as designing and manufacturing testing-rigs, prostheses, custom PCBs and soft robots, as well as creating the software to easily and intuitively control such hardware. My passion lies in creating things that help people and thanks to my studies and work experience I can perform all the tasks involved in the development of a prototype, from conception and design, through electronics and hardware, until software development. If you want to see it for yourself, I invite you to look further into my projects bellow!",
-  resume: 'https://github.com/AndyDunkelHell/Portfolio/blob/main/CurriculumAndresGonzalez2023_ENG.pdf',
+  resume: 'https://github.com/AndyDunkelHell/Portfolio/blob/main/CurriculumAndresGonzalez2025_ENG.pdf',
   social: {
     linkedin: ' https://www.linkedin.com/in/andres-gonzalez-rivera-13b168139/',
     github: 'https://github.com/AndyDunkelHell',
