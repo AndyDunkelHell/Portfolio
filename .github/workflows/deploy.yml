@@ -1,0 +1,45 @@
+name: Build and deploy React site to GitHub Pages
+
+# Re-run on every push to the default branch
+on:
+  push:
+    branches: [ main ]
+
+# Write-only permission to Pages and an OIDC token for deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1 Checkout source
+      - uses: actions/checkout@v4
+
+      # 2 Install Node & cache npm packages
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # 3 Install deps & build
+      - run: npm ci      # or `npm install` if you prefer
+      - run: npm run build
+
+      # 4 Upload the ./build directory as an artifact for the next job
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # Uses the official action that actually publishes to GitHub Pages
+    steps:
+      - uses: actions/deploy-pages@v4
