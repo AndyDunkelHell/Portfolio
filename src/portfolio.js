@@ -24,6 +24,16 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+    {
+    name: 'Project TGRT',
+    pic: 'TGRTDiagram.png',
+    description:
+      'Tiny Gesture Recognition Transformer (TGRT) for a High-Density Electromyography (HD-EMG) and Inertial Measurement Unit (IMU) powered control system.',
+    stack: ['C++', 'C', 'Python'],
+    sourceCode: 'https://github.com/AndyDunkelHell/TGRT',
+    livePreview: 'https://github.com/AndyDunkelHell/TGRT',
+    
+  },
   {
     name: 'Project BBH',
     pic: 'Picture2.png',
